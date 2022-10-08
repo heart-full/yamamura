@@ -529,3 +529,10 @@ img {
     -moz-column-gap: 32px;
   }
 }
+
+/* お問い合わせ */
+#Contact th {
+	font-weight: normal;
+	text-align: left;
+	padding: 0.25em 0.5em;
+}
