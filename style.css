@@ -488,6 +488,10 @@ img {
 	background-color: #ffffff;
 }
 
+#Notations td span {
+	white-space: nowrap;
+}
+
 @media (max-width: 840px) {
 	#Notations table {
 		display: contents;
