@@ -468,3 +468,17 @@ img {
 .plan .btn {
 	width: auto;
 }
+
+/* 特定商取引法に基づく表記 */
+#Notaition table {
+	background-color: #999999;
+	border: none;
+}
+
+#Notation th {
+	background-color: #eeeeee;
+}
+
+#Notation td {
+	background-color: #ffffff;
+}
