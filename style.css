@@ -531,14 +531,12 @@ img {
 }
 
 /* お問い合わせ */
-#Contact th {
-	font-weight: normal;
-	text-align: left;
-	padding: 0.25em 0.5em;
-}
-
 @media (max-width: 480px) {
 	#Contact table {
+		display: contents;
+	}
+
+	#Contact tr {
 		display: flex;
 		flex-direction: column;
     row-gap: 1em;
@@ -546,13 +544,12 @@ img {
     -moz-row-gap: 1em;
 	}
 
-	#Contact tr {
-		display: contents;
-	}
-
 	#Contact :is(th, td) {
+		font-weight: normal;
+		text-align: left;
 		display: block;
 		width: inherit;
+		padding: 0.25em 0.5em;
 	}
 
 	#Contact th {
