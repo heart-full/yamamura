@@ -539,10 +539,15 @@ img {
 
 @media (max-width: 480px) {
 	#Contact table {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#Contact tr {
 		display: contents;
 	}
 
-	#Contact :is(tr, th, td) {
+	#Contact :is(th, td) {
 		display: block;
 		width: 100%;
 		margin-bottom: 0.5em;
