@@ -481,6 +481,7 @@ img {
 #Notations th {
 	background-color: #eeeeee;
 	font-weight: normal;
+	min-width: 8em;
 }
 
 #Notations td {
