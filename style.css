@@ -550,9 +550,9 @@ img {
 	#Contact :is(th, td) {
 		display: block;
 		width: inherit;
-    column-gap: 1em;
-    -webkit-column-gap: 1em;
-    -moz-column-gap: 1em;
+    row-gap: 1em;
+    -webkit-row-gap: 1em;
+    -moz-row-gap: 1em;
 	}
 
 	#Contact th {
