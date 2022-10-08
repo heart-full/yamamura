@@ -501,3 +501,31 @@ img {
 		display: block;
 	}
 }
+
+/* 会社概要 */
+#About :is(dl, dt, dd) {
+  margin: 0;
+  padding: 0;
+/*   リセットCSS（適用するサイトで定義済なら不要） */
+}
+
+#About .company-overview {
+  border-top: 1px solid #ddd;
+}
+
+#About .company-overview .item {
+  padding: 24px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+@media screen and (min-width: 560px) {
+  #About .company-overview .item {
+    display: grid;
+    /*項目名：名称の横幅比率*/
+    grid-template-columns: 1fr 5fr;
+    /*項目名：名称の間の余白*/
+    column-gap: 32px;
+    -webkit-column-gap: 32px;
+    -moz-column-gap: 32px;
+  }
+}
