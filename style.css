@@ -470,15 +470,17 @@ img {
 }
 
 /* 特定商取引法に基づく表記 */
-#Notaition table {
+#Notaitions table {
 	background-color: #999999;
+	font-size: 0.75rem;
 	border: none;
 }
 
-#Notation th {
+#Notations th {
 	background-color: #eeeeee;
+	font-weight: normal;
 }
 
-#Notation td {
+#Notations td {
 	background-color: #ffffff;
 }
