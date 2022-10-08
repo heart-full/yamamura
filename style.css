@@ -541,6 +541,9 @@ img {
 	#Contact table {
 		display: flex;
 		flex-direction: column;
+    row-gap: 1em;
+    -webkit-row-gap: 1em;
+    -moz-row-gap: 1em;
 	}
 
 	#Contact tr {
@@ -550,9 +553,6 @@ img {
 	#Contact :is(th, td) {
 		display: block;
 		width: inherit;
-    row-gap: 1em;
-    -webkit-row-gap: 1em;
-    -moz-row-gap: 1em;
 	}
 
 	#Contact th {
