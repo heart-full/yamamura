@@ -471,10 +471,13 @@ img {
 
 /* 特定商取引法に基づく表記 */
 #Notations table {
-	background-color: #999999;
 	font-size: 0.75rem;
-	border: none;
 	white-space: nowrap;
+	background-color: #999999;
+	width: fit-content;
+	margin: 0 auto;
+	border: none;
+
 }
 
 #Notations th {
