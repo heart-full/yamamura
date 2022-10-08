@@ -549,8 +549,10 @@ img {
 
 	#Contact :is(th, td) {
 		display: block;
-		width: 100%;
-		margin-bottom: 0.5em;
+		width: inherit;
+    column-gap: 1em;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
 	}
 
 	#Contact th {
