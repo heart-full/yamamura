@@ -544,6 +544,7 @@ img {
 
 	#Contact :is(tr, th, td) {
 		display: block;
+		margin-bottom: 0.5em;
 	}
 
 	#Contact th {
