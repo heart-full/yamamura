@@ -471,7 +471,6 @@ img {
 
 /* 特定商取引法に基づく表記 */
 #Notations table {
-	font-size: 0.75rem;
 	background-color: #999999;
 	width: fit-content;
 	margin: 0 auto;
