@@ -474,6 +474,7 @@ img {
 	background-color: #999999;
 	font-size: 0.75rem;
 	border: none;
+	white-space: nowrap;
 }
 
 #Notations th {
