@@ -536,3 +536,17 @@ img {
 	text-align: left;
 	padding: 0.25em 0.5em;
 }
+
+@media (max-width: 480px) {
+	#Contact table {
+		display: contents;
+	}
+
+	#Contact :is(tr, th, td) {
+		display: block;
+	}
+
+	#Contact th {
+		background-color: #eeeeee;
+	}
+}
