@@ -485,3 +485,13 @@ img {
 #Notations td {
 	background-color: #ffffff;
 }
+
+@media (max-width: 840px) {
+	#Notations table {
+		display: contents;
+	}
+
+	#Notations :is(tr, th, td) {
+		display: block;
+	}
+}
