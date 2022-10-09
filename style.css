@@ -534,6 +534,7 @@ img {
 @media (max-width: 480px) {
 	#Contact table {
 		display: block;
+		box-sizing: border-box;
 	}
 
 	#Contact tr {
@@ -544,7 +545,7 @@ img {
 		font-weight: normal;
 		text-align: left;
 		display: block;
-		width: 100%;
+		width: calc(100vw - 1em * 2);
 		padding: 0.25em 0.5em;
 		box-sizing: border-box;
 	}
@@ -554,6 +555,6 @@ img {
 	}
 
 	#Contact td {
-		margin-bottom: 0.5em;
+		margin-bottom: 1em;
 	}
 }
