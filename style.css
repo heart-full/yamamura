@@ -546,11 +546,14 @@ img {
 		display: block;
 		width: 100%;
 		padding: 0.25em 0.5em;
-		margin-bottom: 0.5em;
 		box-sizing: border-box;
 	}
 
 	#Contact th {
 		background-color: #eeeeee;
+	}
+
+	#Contact td {
+		margin-bottom: 0.5em;
 	}
 }
