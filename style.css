@@ -538,7 +538,7 @@ img {
 	box-sizing: border-box;
 }
 
-#Contact :is(input[type="text"], textarea) {
+#Contact :is(input[type="text"], select, textarea) {
 	font-size: clamp(16px, 2.4vw, 18px);
 	width: calc(100% - 0.5em);
 }
