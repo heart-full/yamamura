@@ -561,7 +561,7 @@ img {
 		margin-bottom: 1em;
 	}
 
-	#Contents :is(input[type="text"], textarea) {
+	#Contact :is(input[type="text"], textarea) {
 		width: calc(100% - 0.5em);
 	}
 }
