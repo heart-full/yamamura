@@ -538,6 +538,11 @@ img {
 	box-sizing: border-box;
 }
 
+#Contact :is(input[type="text"], textarea) {
+	font-size: clamp(16px, 2.4vw, 18px);
+	width: calc(100% - 0.5em);
+}
+
 @media (max-width: 480px) {
 	#Contact table {
 		display: block;
@@ -559,10 +564,5 @@ img {
 
 	#Contact td {
 		margin-bottom: 1em;
-	}
-
-	#Contact :is(input[type="text"], textarea) {
-		font-size: clamp(16px, 2.4vw, 18px);
-		width: calc(100% - 0.5em);
 	}
 }
